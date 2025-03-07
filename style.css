@@ -1,0 +1,414 @@
+/* .nco{
+    border: 1px solid;
+} */
+
+.nvb li a {
+    color: white;
+}
+
+.nvb li a:hover {
+    color: #ffb300;
+    ;
+
+}
+
+
+
+.acc i {
+    color: white;
+}
+
+/* -------------------- */
+
+
+.hg {
+    background: linear-gradient(135deg, rgba(44, 69, 93, 0.493), rgba(0, 0, 0, 0)), url(img/HG.png);
+    float: left;
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+}
+
+.md {
+    background: url(img/MG.png);
+    float: left;
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    margin-top: -24%;
+}
+
+
+.lett {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: inline-table;
+}
+
+.lett hr {
+    border: 2px solid #ffb300;
+    width: 72px;
+    opacity: 1;
+    margin-left: -2px;
+}
+
+
+.lett h4 {
+    margin-left: 80px;
+    margin-top: -31px;
+    padding-bottom: 20px;
+    color: #f9d173;
+    letter-spacing: 4px;
+
+
+}
+
+.lett h5 {
+    margin-top: -20px;
+    left: 20%;
+    font-size: 75px;
+    font-family: serif;
+}
+
+
+.sco {
+    position: absolute;
+    top: 68%;
+    left: 25%;
+    display: flex;
+}
+
+.vd {
+    background: url(img/vG.png);
+    float: left;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: 100%;
+    margin-top: -35%;
+
+}
+
+
+
+
+/* ----------------------------- */
+
+.gt {
+    background: #0b1d26;
+}
+
+.is h1 {
+
+    margin-left: 20px;
+    color: rgba(124, 124, 124, 0.488);
+    font-size: 220px;
+    font-weight: 600;
+}
+
+.is hr {
+    margin-top: -120px;
+    margin-left: 110px;
+    width: 100px;
+    border: 2px solid #ffb300;
+    opacity: 2;
+
+}
+
+.is h2 {
+    margin-top: -35px;
+    margin-left: 220px;
+    color: #f9d173;
+    padding-bottom: 20px;
+}
+
+.is h3 {
+    margin-left: 110px;
+    font-size: 70px;
+    color: white;
+    font-family: serif;
+    padding-bottom: 20px;
+}
+
+.is p {
+    margin-left: 110px;
+}
+
+.red {
+    margin-left: 110px;
+
+}
+
+.red h4 {
+    font-size: 20px;
+}
+
+.gt img {
+    width: 500px;
+    height: 100vh;
+
+}
+
+
+
+
+/* ----------------------- */
+
+
+.hkg {
+    background: #0b1d26;
+}
+
+.ess h1 {
+
+    margin-left: 20px;
+    color: rgba(124, 124, 124, 0.488);
+    font-size: 220px;
+    font-weight: 600;
+}
+
+.ess hr {
+    margin-top: -120px;
+    margin-left: 110px;
+    width: 100px;
+    border: 2px solid #ffb300;
+    opacity: 2;
+
+}
+
+.ess h2 {
+    margin-top: -35px;
+    margin-left: 220px;
+    color: #f9d173;
+    padding-bottom: 20px;
+}
+
+.ess h3 {
+    margin-left: 110px;
+    font-size: 70px;
+    color: white;
+    font-family: serif;
+    padding-bottom: 20px;
+}
+
+.ess p {
+    margin-left: 110px;
+}
+
+.hes {
+    margin-left: 110px;
+
+}
+
+.hes h4 {
+    font-size: 20px;
+}
+
+
+.hkg img {
+    width: 500px;
+    height: 100vh;
+
+}
+
+/* -------------------------------------- */
+
+
+.goke {
+    background: #0b1d26;
+}
+
+.wyg h1 {
+
+    margin-left: 20px;
+    color: rgba(124, 124, 124, 0.488);
+    font-size: 220px;
+    font-weight: 600;
+}
+
+.wyg hr {
+    margin-top: -120px;
+    margin-left: 110px;
+    width: 100px;
+    border: 2px solid #ffb300;
+    opacity: 2;
+
+}
+
+.wyg h2 {
+    margin-top: -35px;
+    margin-left: 220px;
+    color: #f9d173;
+    padding-bottom: 20px;
+}
+
+.wyg h3 {
+    margin-left: 110px;
+    font-size: 70px;
+    color: white;
+    font-family: serif;
+    padding-bottom: 20px;
+}
+
+.wyg p {
+    margin-left: 110px;
+}
+
+.tke {
+    margin-left: 110px;
+
+}
+
+.tke h4 {
+    font-size: 20px;
+}
+
+.goke img {
+    width: 500px;
+    height: 100vh;
+
+}
+
+/* ----------------- */
+
+.ctt {
+    background: #0b1d26;
+    padding-top: 30px;
+}
+
+.ckl h1 {
+    font-family: Lucida;
+}
+
+
+.foo li {
+    list-style: none;
+    padding-bottom: 20px;
+
+}
+
+.foo li a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width:768px) {
+
+    .nvb li {
+        width: 100%;
+        float: left;
+    }
+
+
+    .hg {
+        width: 100%;
+        height: 200px;
+    }
+
+    .lett hr {
+        width: 20%;
+        margin-top: -80px;
+        margin-left: 20px;
+    }
+
+    .lett h4 {
+        font-size: 13px;
+        margin-top: -25px;
+        margin-left: 90px;
+    }
+
+    .lett h5 {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+
+    .md {
+        height: 220px;
+    }
+
+    .sco {
+        font-size: 20px;
+        top: 38%;
+        left: 10%;
+    }
+
+    .vd {
+        height: 240px;
+    }
+
+
+    .is h1 {
+        margin-left: -70px;
+
+    }
+
+    .is hr {
+        margin-left: 10px;
+    }
+
+    .is h2 {
+        margin-left: 40%;
+    }
+
+    .is h3 {
+        font-size: 40px;
+        margin-left: 20px;
+    }
+
+    .is p {
+        margin-left: 20px;
+    }
+
+    .red h4 {
+        margin-left: -90px;
+    }
+
+    .gt img {
+        margin-left: -90px;
+        width: 128%;
+        height: 450px;
+    }
+
+    /* ---------------- */
+    .hkg img{
+        width: 100%;
+        height: 400px;
+    }
+
+    .ess h1{
+        margin-left: -70px;
+
+    }
+
+    .ess hr {
+        margin-left: 10px;
+    }
+
+    .ess h2 {
+        margin-left: 40%;
+    }
+
+    .ess h3 {
+        font-size: 40px;
+        margin-left: 20px;
+    }
+    .ess p {
+        margin-left: 20px;
+    }
+
+    .hes h4 {
+        margin-left: -90px;
+    }
+
+    /* -------------- */
+
+    .goke img{
+        margin-left: -90px;
+        width: 128%;
+        height: 450px;
+    }
+
+}
